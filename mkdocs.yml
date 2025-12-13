@@ -1,0 +1,52 @@
+site_name: learning-ml-sys-repos
+repo_url: https://github.com/vincentzhong/learning_ml_sys_repos
+site_url: https://github.com/vincentzhong/learning_ml_sys_repos
+site_description: A repository for learning ML systems and exploring ML system repositories.
+site_author: Vincent Zhong
+edit_uri: edit/main/docs/
+repo_name: vincentzhong/learning_ml_sys_repos
+copyright: Maintained by Vincent Zhong.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: ["learning_ml_sys"]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/vincentzhong/learning_ml_sys_repos
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/learning-ml-sys-repos
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
