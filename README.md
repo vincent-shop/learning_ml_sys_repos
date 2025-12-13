@@ -56,6 +56,41 @@ git push origin main
 You are now ready to start development on your project!
 The CI/CD pipeline will be triggered when you open a pull request, merge to main, or when you create a new release.
 
+### 5. Clone with Submodules
+
+This repository uses git submodules to include external project repositories for code examples. When cloning the repository, include submodules:
+
+```bash
+git clone --recurse-submodules git@github.com:vincentzhong/learning_ml_sys_repos.git
+```
+
+If you've already cloned without submodules, initialize them with:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Adding a New Project Submodule
+
+For each project we add code examples for, we add it as a git submodule in the `examples/` directory:
+
+1. Create a subdirectory for the project in `examples/` (e.g., `examples/miles/`)
+2. Add the project repository as a submodule:
+   ```bash
+   git submodule add <repository-url> examples/<project-name>/<project-name>
+   ```
+   Example:
+   ```bash
+   git submodule add https://github.com/radixark/miles.git examples/miles/miles
+   ```
+3. Commit the submodule addition:
+   ```bash
+   git add .gitmodules examples/<project-name>/
+   git commit -m "Add <project-name> as submodule"
+   ```
+
+This pattern keeps external project code separate from our example code while allowing easy reference and updates.
+
 To finalize the set-up for publishing to PyPI, see [here](https://fpgmaas.github.io/cookiecutter-uv/features/publishing/#set-up-for-pypi).
 For activating the automatic documentation with MkDocs, see [here](https://fpgmaas.github.io/cookiecutter-uv/features/mkdocs/#enabling-the-documentation-on-github).
 To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookiecutter-uv/features/codecov/).

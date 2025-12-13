@@ -1,0 +1,3 @@
+[submodule "examples/miles/miles"]
+	path = examples/miles/miles
+	url = https://github.com/radixark/miles.git
