@@ -1,3 +1,10 @@
 [submodule "examples/miles/miles"]
 	path = examples/miles/miles
 	url = https://github.com/radixark/miles.git
+[submodule "examples/megatron-lm/megatron-lm"]
+	path = examples/megatron-lm/megatron-lm
+	url = https://github.com/NVIDIA/Megatron-LM
+	branch = main
+[submodule "examples/cuda-python/cuda-python"]
+	path = examples/cuda-python/cuda-python
+	url = https://github.com/NVIDIA/cuda-python.git
