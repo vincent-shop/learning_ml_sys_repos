@@ -8,3 +8,6 @@
 [submodule "examples/cuda-python/cuda-python"]
 	path = examples/cuda-python/cuda-python
 	url = https://github.com/NVIDIA/cuda-python.git
+[submodule "Dynasor"]
+	path = Dynasor
+	url = https://github.com/hao-ai-lab/Dynasor.git
