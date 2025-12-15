@@ -8,6 +8,66 @@
 [submodule "examples/cuda-python/cuda-python"]
 	path = examples/cuda-python/cuda-python
 	url = https://github.com/NVIDIA/cuda-python.git
+[submodule "examples/numba-cuda/numba-cuda"]
+	path = examples/numba-cuda/numba-cuda
+	url = https://github.com/NVIDIA/numba-cuda.git
 [submodule "Dynasor"]
 	path = Dynasor
 	url = https://github.com/hao-ai-lab/Dynasor.git
+[submodule "examples/model-optimizer/Model-Optimizer"]
+	path = examples/model-optimizer/Model-Optimizer
+	url = https://github.com/NVIDIA/Model-Optimizer
+	branch = main
+[submodule "sglang"]
+	path = sglang
+	url = https://github.com/sgl-project/sglang.git
+[submodule "the-art-of-debugging"]
+	path = the-art-of-debugging
+	url = https://github.com/stas00/the-art-of-debugging.git
+[submodule "examples/tilegym/tilegym"]
+	path = examples/tilegym/tilegym
+	url = https://github.com/NVIDIA/TileGym.git
+[submodule "examples/cutile-python/cutile-python"]
+	path = examples/cutile-python/cutile-python
+	url = https://github.com/NVIDIA/cutile-python.git
+[submodule "examples/nsight-python/nsight-python"]
+	path = examples/nsight-python/nsight-python
+	url = https://github.com/NVIDIA/nsight-python.git
+[submodule "examples/cutlass/cutlass"]
+	path = examples/cutlass/cutlass
+	url = https://github.com/NVIDIA/cutlass.git
+[submodule "examples/nccl/nccl"]
+	path = examples/nccl/nccl
+	url = https://github.com/NVIDIA/nccl.git
+[submodule "examples/awesome-ml-sys-tutorial/Awesome-ML-SYS-Tutorial"]
+	path = examples/awesome-ml-sys-tutorial/Awesome-ML-SYS-Tutorial
+	url = https://github.com/zhaochenyang20/Awesome-ML-SYS-Tutorial.git
+	branch = main
+[submodule "examples/areal/AReaL"]
+	path = examples/areal/AReaL
+	url = https://github.com/inclusionAI/AReaL.git
+	branch = main
+[submodule "examples/ml-systems-papers/ml-systems-papers"]
+	path = examples/ml-systems-papers/ml-systems-papers
+	url = https://github.com/byungsoo-oh/ml-systems-papers.git
+	branch = main
+[submodule "examples/pytorch/pytorch"]
+	path = examples/pytorch/pytorch
+	url = https://github.com/pytorch/pytorch.git
+	branch = main
+[submodule "examples/fbgemm/FBGEMM"]
+	path = examples/fbgemm/FBGEMM
+	url = https://github.com/pytorch/FBGEMM.git
+	branch = main
+[submodule "examples/torchcomms/torchcomms"]
+	path = examples/torchcomms/torchcomms
+	url = https://github.com/meta-pytorch/torchcomms.git
+	branch = main
+[submodule "examples/helion/helion"]
+	path = examples/helion/helion
+	url = https://github.com/pytorch/helion.git
+	branch = main
+[submodule "examples/awesome-production-machine-learning/awesome-production-machine-learning"]
+	path = examples/awesome-production-machine-learning/awesome-production-machine-learning
+	url = https://github.com/EthicalML/awesome-production-machine-learning.git
+	branch = master
