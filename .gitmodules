@@ -11,19 +11,10 @@
 [submodule "examples/numba-cuda/numba-cuda"]
 	path = examples/numba-cuda/numba-cuda
 	url = https://github.com/NVIDIA/numba-cuda.git
-[submodule "Dynasor"]
-	path = Dynasor
-	url = https://github.com/hao-ai-lab/Dynasor.git
 [submodule "examples/model-optimizer/Model-Optimizer"]
 	path = examples/model-optimizer/Model-Optimizer
 	url = https://github.com/NVIDIA/Model-Optimizer
 	branch = main
-[submodule "sglang"]
-	path = sglang
-	url = https://github.com/sgl-project/sglang.git
-[submodule "the-art-of-debugging"]
-	path = the-art-of-debugging
-	url = https://github.com/stas00/the-art-of-debugging.git
 [submodule "examples/tilegym/tilegym"]
 	path = examples/tilegym/tilegym
 	url = https://github.com/NVIDIA/TileGym.git
@@ -70,4 +61,14 @@
 [submodule "examples/awesome-production-machine-learning/awesome-production-machine-learning"]
 	path = examples/awesome-production-machine-learning/awesome-production-machine-learning
 	url = https://github.com/EthicalML/awesome-production-machine-learning.git
+	branch = master
+[submodule "examples/dynasor/Dynasor"]
+	path = examples/dynasor/Dynasor
+	url = https://github.com/hao-ai-lab/Dynasor.git
+[submodule "examples/sglang/sglang"]
+	path = examples/sglang/sglang
+	url = https://github.com/sgl-project/sglang.git
+[submodule "examples/the-art-of-debugging/the-art-of-debugging"]
+	path = examples/the-art-of-debugging/the-art-of-debugging
+	url = https://github.com/stas00/the-art-of-debugging.git
 	branch = master

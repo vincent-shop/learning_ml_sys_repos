@@ -29,9 +29,12 @@ Each example includes documentation, setup instructions, dependencies, and best 
 - **torchcomms**: `examples/torchcomms/torchcomms` (`https://github.com/meta-pytorch/torchcomms`) — experimental PyTorch communications/collectives API.
 - **Helion**: `examples/helion/helion` (`https://github.com/pytorch/helion`) — Python-embedded kernel DSL that compiles to Triton.
 - **Awesome Production Machine Learning**: `examples/awesome-production-machine-learning/awesome-production-machine-learning` (`https://github.com/EthicalML/awesome-production-machine-learning`) — curated MLOps / production ML tools list.
+- **SGLang**: `examples/sglang/sglang` (`https://github.com/sgl-project/sglang`) — high-performance LLM/VLM serving framework (RadixAttention, speculative decoding, distributed inference).
+- **Dynasor**: `examples/dynasor/Dynasor` (`https://github.com/hao-ai-lab/Dynasor`) — speed up LLM reasoning without training (vLLM extension).
+- **The Art of Debugging**: `examples/the-art-of-debugging/the-art-of-debugging` (`https://github.com/stas00/the-art-of-debugging`) — debugging methodologies for Python, PyTorch, compiled programs.
 - **CUDA Python**: `examples/cuda-python/cuda-python` (`https://github.com/NVIDIA/cuda-python.git`)
 - **Numba-CUDA**: `examples/numba-cuda/numba-cuda` (`https://github.com/NVIDIA/numba-cuda.git`)
-- **Model Optimizer (ModelOpt)**: `examples/model-optimizer/Model-Optimizer` (`https://github.com/NVIDIA/Model-Optimizer`) — NVIDIA’s open-source library for quantization/pruning/distillation/speculative decoding/sparsity workflows for inference optimization.
+- **Model Optimizer (ModelOpt)**: `examples/model-optimizer/Model-Optimizer` (`https://github.com/NVIDIA/Model-Optimizer`) — NVIDIA's open-source library for quantization/pruning/distillation/speculative decoding/sparsity workflows for inference optimization.
 
 ---
 
